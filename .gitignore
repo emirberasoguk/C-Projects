@@ -1,0 +1,26 @@
+# Prerequisites
+*.d
+*.test
+*.x
+*.obj
+*.o
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Editors
+*.save
+*~
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated
+.DS_Store
+Thumbs.db
