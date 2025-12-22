@@ -25,11 +25,13 @@ Metin manipülasyonu ve dizi algoritmaları üzerine çalışmalar.
 *   **matris_koordinat_yazdirma.c**: Matris indislerini koordinat sistemi olarak yazdırır.
 
 ### 3. 🗂 Veri Yönetimi ve Struct Yapıları (`Veri_Yonetimi_ve_Struct/`)
-`struct` yapısı kullanılarak oluşturulmuş mini yönetim sistemleri.
+`struct` yapısı kullanılarak oluşturulmuş mini yönetim sistemleri ve veri yapıları.
 *   **telofon_rehberi.c**: Kişi ekleme, silme ve arama özellikli telefon rehberi uygulaması.
 *   **kitaplık_yönetici.c**: Kütüphane kitap takip ve ödünç alma sistemi.
 *   **parsonel_bilgi_kayit_sistemi.c**: Çalışan bilgilerini tutan yapı örneği.
 *   **struct_ilk.c**: Struct yapısına giriş örneği.
+*   **agac_olusturma.c**: Basit bir ikili ağaç (binary tree) oluşturma ve yazdırma örneği.
+*   **liste_olusturma.c**: Bağlı liste (linked list) oluşturma ve üzerinde gezinme örneği.
 
 ### 4. 💾 Bellek ve Dosya İşlemleri (`Bellek_ve_Dosya_Islemleri/`)
 İleri seviye bellek yönetimi ve dosya okuma/yazma örnekleri.
