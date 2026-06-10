@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<time.h>
 int matris[10][10];
-const char**  hata_mesaji(){
+const char*  hata_mesaji(){
 	return"HATALI GIRIS!!!\n";
 }
 void rastgele_matris_olusturucu(int satir, int sutun){

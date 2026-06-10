@@ -38,7 +38,7 @@ char gecici;
 for(int i=0;kullanici_girdisi[i]!='\n';i++){girdi_uzunlugu=i;}
 switch(girdi_turu){
 	case 1:
-	for(int i=girdi_uzunlugu,int j=0;i>0;i--,j++){
+	for(int i=girdi_uzunlugu, j=0;i>0;i--,j++){
 		gecici=kullanici_girdisi[i];
 		kullanici_girdisi[i]=kullanici_girdisi[j];
 		kullanici_girdisi[j]=gecici;

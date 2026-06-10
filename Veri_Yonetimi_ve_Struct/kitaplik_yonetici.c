@@ -22,12 +22,10 @@ void kitap_ekle(Kitap kutuphane[], int *sayac) {
     kutuphane[*sayac].mevcut = 1;
     
     printf("Kitap Basligi: ");
-    scanf(" %[^
-]s", kutuphane[*sayac].baslik);
+    scanf(" %[^\n]", kutuphane[*sayac].baslik);
     
     printf("Yazar Adi: ");
-    scanf(" %[^
-]s", kutuphane[*sayac].yazar);
+    scanf(" %[^\n]", kutuphane[*sayac].yazar);
     
     (*sayac)++;
     printf("Kitap eklendi! (ID: %d)\n", *sayac);

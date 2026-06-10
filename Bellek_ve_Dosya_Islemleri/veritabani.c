@@ -16,11 +16,9 @@ void veri_ekle() {
     char deger[100];
 
     printf("Kayit Anahtari (rn. KullaniciAdi): ");
-    scanf(" %[^
-]s", anahtar);
+    scanf(" %[^\n]", anahtar);
     printf("Kayit Degeri (rn. Emir): ");
-    scanf(" %[^
-]s", deger);
+    scanf(" %[^\n]", deger);
 
     fprintf(dosya, "%s:%s\n", anahtar, deger);
     fclose(dosya);
